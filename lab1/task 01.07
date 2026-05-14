@@ -1,0 +1,14 @@
+# Задание task_01_07.
+# Выполнилa: Манидарова Н.Ч.
+# Группа: ЦИБ-251
+
+team = input("Введите название команды: ")
+print(f'{team} -чемпион!')
+daches='-' *len(team)
+print(daches)
+
+# Название команды в нижнем регистре
+team_lowercase = team.lower()
+print("Символов в названии команды:", len(team))
+print('Буква "п" есть: ', "п" in team_lowercase)
+print('Количество букв "а": ', team_lowercase.count("а"))
